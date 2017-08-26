@@ -42,6 +42,105 @@ table {
 	border-spacing: 0;
 }
 
+.wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container{
+	width: 70%;
+}
+
+.tasks{
+	min-height: 775px;
+	text-align: center;
+}
+
+.tasks h2 {
+	font: bold 47px/49px "Ubuntu";
+	margin-top: 50px;
+}
+
+.tasks h6{
+	font: bold 33px/35px "Ubuntu";
+	margin-top: 30px;
+ }
+
+.tasks span{
+	font: normal 30px/32px "Ubuntu";
+}
+
+.attention{
+	margin-top: 15px;
+}
+
+.tasks__first,
+.tasks__second,
+.tasks__third{
+	display: inline-flex;
+	flex-wrap: wrap;
+	text-align: justify;
+	padding: 50px 0;
+}
+
+.tasks__second{
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+
+.tasks__first img,
+.tasks__second img,
+.tasks__third img{
+	width: 10%;
+}
+
+.tasks__first p,
+.tasks__second p,
+.tasks__third p{
+	width: 85%;
+	padding-left: 5%;
+	font: 22px/24px "PTSans-Regular";
+}
+
+.tasks__first > p > span,
+.tasks__second > p > span{
+	padding: 0px;
+	font: 22px/24px "PTSans-Bold";
+}
+
+.tasks__first span{
+	width: 85%;
+	font: 22px/24px "PTSans-Regular";
+	padding-left: 15%;
+}
+
+.advantage{
+	width: 100%;
+	min-height: 275px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-image: url(../images/advantage_bg.jpg);
+}
+
+.advantage h2{
+	margin: 50px 0 35px;
+	font: bold 41px/43px "Ubuntu";
+	color: #fff;
+}
+
+.advantage p{
+	font: 30px/32px "PTSans";
+	color: #fff;
+}
+
+.advantage span{
+	font-family: "PTSans-Bold";
+	color: #fff000;
+}
+
 /*
 
 ---===Используемые шрифты в макете===---
