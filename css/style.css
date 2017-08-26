@@ -55,3 +55,48 @@ font-family: Tahoma, Verdana, Segoe, sans-serif;
 */
 
 /*Begin your code css*/
+.container {
+	width: 100%;
+}
+.container__bgLine {
+	width: 100%;
+	height: auto;
+	background-image:url(../images/bgLine.jpg);
+}
+.bgLine__text {
+	width: 70%;
+	margin: 0 auto;
+	padding: 35px 0 35px 0;
+}
+.bgLine__text h2 {
+	text-align: center;
+	color: #FFFF25;
+	font-size: 48px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+.bgLine__text p {
+	font-size: 26px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+.bgLine__text span {
+	font-family: 'PT Sans', sans-serif;
+	color: #000;
+	background-color: #F0EFED;
+	font-weight: lighter;
+	font-size: 22px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	width: 45%;
+	padding: 5px;
+	text-align: center;
+}
+.bgLine__text p:last-child {
+	font-size: 22px;
+	font-weight: lighter;
+} 
