@@ -166,9 +166,12 @@ input:first-child {
 }
 [placeholder] {
 	padding-left: 20px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif; 
 }
 .form__form button {
 	display: block;
+	cursor: pointer;
 	width: 90%;
 	height: 57px;
 	font-weight: bold;
