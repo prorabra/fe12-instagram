@@ -154,3 +154,168 @@ font-family: Tahoma, Verdana, Segoe, sans-serif;
 */
 
 /*Begin your code css*/
+
+/*Очищення потоку*/
+.clearfix:after
+.clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after, .clearfix {
+    clear:both;
+}
+
+/*CONTAINER TEXT*/
+
+
+.container {
+	width: 100%;
+}
+.container__bgLine {
+	width: 100%;
+	height: auto;
+	background-image:url(../images/bgLine.jpg);
+}
+.bgLine__text {
+	width: 70%;
+	margin: 0 auto;
+	padding: 35px 0 35px 0;
+}
+.bgLine__text h2 {
+	text-align: center;
+	color: #FFFF25;
+	font-size: 48px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+.bgLine__text p {
+	font-size: 26px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+.bgLine__text span {
+	font-family: 'PT Sans', sans-serif;
+	color: #000;
+	background-color: #F0EFED;
+	font-weight: lighter;
+	font-size: 22px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	width: 45%;
+	padding: 5px;
+	text-align: center;
+}
+.bgLine__text p:last-child {
+	font-size: 22px;
+	font-weight: lighter;
+} 
+
+/*CONTAINER FORM*/
+.container__form {
+	background-color: #fff;
+}
+.form__main {
+	width: 70%;
+	margin: 0 auto;
+	overflow: auto;
+}
+.form__text {
+	width: 50%;
+	float: left;
+	padding-top: 70px;
+}
+.form__text img {
+	display: block;
+	margin: 0 auto;
+}
+.form__text img:last-child {
+	position: relative;
+    top: 20px;
+    left: 130px;
+}
+.form__text p {
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	padding: 40px 10px;
+}
+.form__form {
+	width: 50%;
+	float: left;
+}
+form {
+	border: 7px solid #023DA5;
+	margin: 20px 0 40px 0;
+}
+input {
+	width: 90%;
+	border: 2px solid #023DA5;
+	border-radius: 10px;
+	height: 50px;
+	display: block;
+	margin: 10px auto;
+}
+input:first-child {
+	margin-top: 20px;
+}
+[placeholder] {
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif; 
+}
+.form__form button {
+	display: block;
+	cursor: pointer;
+	width: 90%;
+	height: 57px;
+	font-weight: bold;
+	margin: 0 auto;
+	color: #fff;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+	margin-bottom: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: none;
+	border-bottom: 3px solid #CD0020;
+	border-radius: 10px;
+	background: #ff3129; /* Old browsers */
+background: -webkit-linear-gradient(#ff3129 0%, #f5002a 100%);
+background: -o-linear-gradient(#ff3129 0%, #f5002a 100%);
+background: linear-gradient(#ff3129 0%, #f5002a 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3129', endColorstr='#f5002a',GradientType=0 ); /* IE6-9 */
+}
+.form__form a {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+.form__form a:hover {
+	color: #ff3129;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #F0EFED;
+	padding: 30px;
+}
+footer p {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+footer span {
+	display: block;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 29px;
+}
